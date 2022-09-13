@@ -8,10 +8,8 @@ directories will have the same problems solved in different languages.
 To pull in the GoogleTest framework, run the following command:
 
 ```
-    git submodule sync --recursive
+    git submodule update --init
 ```
-
-Note: I have not tested this yet and the `--recursive` flag may be unnecessary.
 
 ## Build and Run
 
