@@ -14,5 +14,5 @@ https://leetcode.com/problems/two-sum/
  */
 class TwoSum {
 public:
-  std::vector<int> twoSum(std::vector<int> &nums, int target);
+  static std::vector<int> twoSum(std::vector<int> &nums, int target);
 };
