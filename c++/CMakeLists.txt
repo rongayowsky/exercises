@@ -24,7 +24,7 @@ include_directories(${COMMON_INCLUDES})
 ########################################
 # Source files
 ########################################
-file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
+file(GLOB_RECURSE SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 ########################################
 # Main -- separate executable
@@ -67,7 +67,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 ########################################
 # Test files
 ########################################
-file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
+file(GLOB_RECURSE TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 ########################################
 # Unit Tests
