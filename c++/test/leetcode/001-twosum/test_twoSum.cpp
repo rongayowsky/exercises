@@ -1,7 +1,7 @@
 #include <iostream>
 #include "gtest/gtest.h"
 
-#include "leetcode/001-twosum/twosum.h"
+#include "leetcode/001-twoSum/twoSum.h"
 
 TEST(TwoSumTests, ExampleInput) {
     std::vector<int> nums{2,7,11,15};
