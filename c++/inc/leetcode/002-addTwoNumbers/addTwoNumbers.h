@@ -17,7 +17,6 @@ struct ListNode {
 };
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
-    }
+    static ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+    static ListNode* addTwoNumbersRecursive(ListNode* l1, ListNode* l2, int rCarry);
 };
